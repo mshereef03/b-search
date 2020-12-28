@@ -6,7 +6,7 @@ def binarysearch(a,target):
   i = 0
   j = len(a)-1
   f = False
-  while i<j:
+  while i<=j:
     mid = (i+j)//2
     if a[mid]==target:
       print("Index: ",mid)
